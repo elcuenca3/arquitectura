@@ -7,14 +7,24 @@ export default function Categorias() {
   const submit = (e: SyntheticEvent) => {
     e.preventDefault();
     const fronData = {
-      name: e.target.name.value,
-      comment: e.target.comment.value,
+      autor: e.target.autor.value,
+      descripcion: e.target.descripcion.value,
+      fecha: e.target.fecha.value,
+      materia: e.target.materia.value,
+      titulo: e.target.titulo.value,
+
+
+      // "autor": autor,
+      // "descripcion": descripcion,
+      // "fecha": fecha,
+      // "materia": materia,
+      // "titulo": titulo
 
     }
-    fetch('/api/hello', {
+    fetch('http://localhost:8000/notificacion', {
       method: 'POST',
       body: JSON.stringify(fronData),
-    })
+    })  
     console.log({fronData});
     
   }
@@ -25,20 +35,39 @@ export default function Categorias() {
       {/*
       <Auxiliar />
   */}
-      <p>Ingrese su nombre</p>
+      
       <form action='' onSubmit={submit}>
+      <p>Ingrese su nombre</p>
         <label>
           <div>
-            <input type="text" name='name' />
+            <input type="text" name='autor' />
           </div>
         </label>
+        <p>Ingrese su Descripcion</p>
         <label>
           <div>
-            tu comentario
+            <input type="text" name='descripcion' />
           </div>
-          <textarea name='comment'></textarea>
-          <input type="submit"/>
         </label>
+        <p>Ingrese su fecha</p>
+        <label>
+          <div>
+            <input type="text" name='fecha' />
+          </div>
+        </label>
+        <p>Ingrese su materia</p>
+        <label>
+          <div>
+            <input type="text" name='materia' />
+          </div>
+        </label>
+        <p>Ingrese su titulo</p>
+        <label>
+          <div>
+            <input type="text" name='titulo' />
+          </div>
+        </label>
+        <input type="submit"/>
       </form>
     </div>
   )

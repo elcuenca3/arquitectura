@@ -4,7 +4,7 @@ import Auxiliar from '../lib/auxiliar'
 
 
 
-export default function Home({ games }: any) {
+export default function Home() {
   return (
     <>
       <div>
