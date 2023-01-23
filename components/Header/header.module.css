@@ -1,0 +1,43 @@
+.container {
+    background-color: #0098f1;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:40px;
+}
+
+
+.menu {
+    color: rgb(236, 236, 236);
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 700px;
+    flex-wrap: wrap;
+}
+
+.list {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: medium;
+    padding: 25px;
+    flex-direction: row;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+
+.list:hover {
+    background-color: #ffffff;
+    border-radius: 150px 10px 150px 10px;
+    color: rgb(0, 0, 0);
+    transition: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+.titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    
+    
+}
