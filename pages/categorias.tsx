@@ -1,5 +1,7 @@
 import React, { SyntheticEvent } from 'react'
 import Header from "../components/Header/header";
+import styles from "../header.module.css";
+
 
 
 export default function Categorias() {
@@ -36,35 +38,35 @@ export default function Categorias() {
       <Auxiliar />
   */}
       
-      <form action='' onSubmit={submit}>
+      <form className = 'form-register' onSubmit={submit}>
       <p>Ingrese su nombre</p>
         <label>
           <div>
-            <input type="text" name='autor' />
+          <input className ='controls'  type = "text" name = "autor " id = " autor" placeholder = "Ingrese su nombre" />          
           </div>
         </label>
         <p>Ingrese su Descripcion</p>
         <label>
           <div>
-            <input type="text" name='descripcion' />
+          <input className ="controls" type = "text" name = "descripcion " id = " descripcion" placeholder = "Ingrese su descripcion" />
           </div>
         </label>
         <p>Ingrese su fecha</p>
         <label>
           <div>
-            <input type="text" name='fecha' />
+          <input className="controls" type = "date" name = "fecha " id = " fecha" placeholder = "Ingrese su fecha"/>
           </div>
         </label>
         <p>Ingrese su materia</p>
         <label>
           <div>
-            <input type="text" name='materia' />
+          <input className="controls" type = "text" name = "materia " id = " materia" placeholder = "Ingrese la materia"/>
           </div>
         </label>
         <p>Ingrese su titulo</p>
         <label>
           <div>
-            <input type="text" name='titulo' />
+          <input className="controls" type = "text" name = "titulo " id = " titulo" placeholder = "Ingrese el titulo "/>
           </div>
         </label>
         <input type="submit"/>
