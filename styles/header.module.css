@@ -4,17 +4,23 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding:40px;
+    padding:40px 20px; 
 }
+.ti {
+    text-decoration: none;
+    font-size: large;
+    color: black;
 
-
+}
 .menu {
     color: rgb(236, 236, 236);
     list-style: none;
     display: flex;
     position: absolute;
-    left: 700px;
+    left: 500px;
     flex-wrap: wrap;
+    text-decoration: none;
+
 }
 
 .list {
@@ -26,11 +32,13 @@
     flex-direction: row;
     transition: all 0.25s;
     cursor: pointer;
+    text-decoration: none;
+
 }
 
 .list:hover {
     background-color: #ffffff;
-    border-radius: 150px 10px 150px 10px;
+    border-radius: 20px;
     color: rgb(0, 0, 0);
     transition: cubic-bezier(0.6, 0.04, 0.98, 0.335);
 }
@@ -38,6 +46,8 @@
 .titulo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative;
+    text-decoration: none;
+
     
     
 }

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./header.module.css";
+import styles from '/styles/header.module.css';
 const Header = () => {
   return (
 
@@ -9,29 +9,29 @@ const Header = () => {
       <ul className={styles.menu}>
         <Link href="/">
           <li className={styles.list}>
-            <a>Inicio</a>
+            <a className={styles.ti}>Inicio</a>
           </li>
         </Link>
         <Link href="/categorias">
           <li className={styles.list}>
-            <a>Categorias</a>
+            <a className={styles.ti}>Categorias</a>
+          </li>
+        </Link>
+        {/* <Link href="/">
+          <li className={styles.list}>
+            <a className={styles.ti}>Juegos</a>
           </li>
         </Link>
         <Link href="/">
           <li className={styles.list}>
-            <a>Juegos</a>
+            <a className={styles.ti}>Games</a>
           </li>
         </Link>
         <Link href="/">
           <li className={styles.list}>
-            <a>Games</a>
+            <a className={styles.ti}>Contactos</a>
           </li>
-        </Link>
-        <Link href="/">
-          <li className={styles.list}>
-            <a>Contactos</a>
-          </li>
-        </Link>
+        </Link> */}
       </ul>
     </div>
   );

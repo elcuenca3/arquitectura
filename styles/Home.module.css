@@ -10,7 +10,7 @@
 .title_content {
   text-align: center;
   padding: 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border-radius: 20px;
   margin: 20px;
   color: brown;
@@ -35,7 +35,7 @@
 .barra {
   margin: 20px;
   position: relative;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   bottom: 10px;
   padding-top: 0px;
   color: brown;
@@ -46,7 +46,7 @@
 .autor {
   text-align: center;
   padding: 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border-radius: 20px;
   margin: 20px;
   color: rgb(0, 0, 0);
@@ -115,9 +115,82 @@
   color: black;
 }
 
+.conten {
+  justify-content: center;
+  /* display: block; */
+  padding: 20px;
+  background-color: #0098f1;
+  position: relative;
+  width: 600px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40px;
+  right: auto;
+  border-radius: 50px;
+}
+.button {
+  justify-content: center;  
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgb(94, 227, 236);
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+.button:hover {
+  background-color: #6ff196;
+}
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 3px solid #555;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.titulo{
+  color: #ffffff;
+  font-weight:lighter;
+  text-align: center;
+  font-size: larger;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;  
+}
+
 @media all and (max-width: 500px) {
   .card-list {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
+}
+
+.buttonR {
+  
+  justify-content: center;  
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;  
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: rgb(94, 227, 236);
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+.buttonR:hover {
+  background-color: #ff8888;
+}
+.juntar{
+  display: inline-flex;
+  padding-left: 200px;
+  padding-right: 200px;
+  position: absolute;
+}
+.cabeza{
+  color: rgb(229, 255, 246);
+  padding: auto;
+  border: #ff8888;
 }

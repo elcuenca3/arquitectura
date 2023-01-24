@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "firebase": "^9.15.0",
-    "next": "latest",
+    "next": "^13.1.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -14,5 +14,22 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "typescript": "4.9.4"
-  }
+  },
+  "name": "arquitectura",
+  "description": "��#\u0000 \u0000a\u0000r\u0000q\u0000u\u0000i\u0000t\u0000e\u0000c\u0000t\u0000u\u0000r\u0000a\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elcuenca3/arquitectura.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elcuenca3/arquitectura/issues"
+  },
+  "homepage": "https://github.com/elcuenca3/arquitectura#readme"
 }
