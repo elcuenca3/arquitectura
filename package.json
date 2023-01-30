@@ -5,10 +5,16 @@
     "build": "next build"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "firebase": "^9.15.0",
+    "gapi-script": "^1.2.0",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^110.0.0",
     "next": "^13.1.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-calendar": "^4.0.0",
+    "react-dom": "^18.2.0",
+    "react-google-calendar-api": "^2.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

@@ -17,6 +17,12 @@ const Header = () => {
             <a className={styles.ti}>Categorias</a>
           </li>
         </Link>
+
+        <li className={styles.list}>
+        <a href="http://localhost:3002/#" className={styles.ti}>Calendario2</a>
+          <a href="http://localhost:3001/#" className={styles.ti}>Calendario1</a>
+        </li>
+
         {/* <Link href="/">
           <li className={styles.list}>
             <a className={styles.ti}>Juegos</a>

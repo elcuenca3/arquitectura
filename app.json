@@ -4,7 +4,7 @@
     "allow-unauthenticated": true,
     "memory": "256Mi",
     "cpu": "1",
-    "port": 3000,
+    "port": 3001,
     "http2": false
   }
 }

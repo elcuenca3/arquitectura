@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/categorias.js"  ],
+, "pages/categorias.js", "pages/calendario.js", "pages/calendario.js"  ],
   "exclude": [
     "node_modules"
   ]
